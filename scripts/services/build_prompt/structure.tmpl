@@ -1,0 +1,7 @@
+Here is some information about the tables and their columns types:
+{% for table in tables %}
+- {{ table.name }} {% if table.description %}: {{ table.description }}{% endif %}
+{% for field in table.fields %}
+    - {{ field.name }} ({{ field.type }}): {{ field.description }}
+{% endfor %}
+{% endfor %}
