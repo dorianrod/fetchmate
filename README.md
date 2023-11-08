@@ -132,7 +132,7 @@ You can call API with a POST [http://localhost:5010/query](http://localhost:5010
 
 ## Grafana
 
-A [grafana plugin](https://github.com/dorianrod/grafana-fetchmate) has been developped to use this micro service
+A [grafana plugin](https://github.com/dorianrod/grafana-fetchmate]) has been developped to use this micro service
 
 ## Contributing
 
